@@ -3,7 +3,13 @@
 ## Aerodynamic Design, Optimization and CFD Analysis of a Blended-Wing-Body UAV
 
 This repository documents the design and aerodynamic analysis of **CHARON**, a Blended-Wing-Body (BWB) unmanned aerial vehicle developed as part of my undergraduate thesis at the Hellenic Air Force Academy.
+<p align="center">
+  <img src="figures/charon_bwb_uav.png" width="800">
+</p>
 
+<p align="center">
+  <em>CHARON — Blended-Wing-Body UAV configuration developed during the project.</em>
+</p>
 The project investigates the aerodynamic design of a compact flying-wing configuration and the integration of an embedded Electric Ducted Fan (EDF) propulsion system using **Boundary Layer Ingestion (BLI)**.
 
 ## Project Objectives
