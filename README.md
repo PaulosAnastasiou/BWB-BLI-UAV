@@ -4,7 +4,7 @@
 
 This repository documents the design and aerodynamic analysis of **CHARON**, a Blended-Wing-Body (BWB) unmanned aerial vehicle developed as part of my undergraduate thesis at the Hellenic Air Force Academy.
 <p align="center">
-  <img src="figures/charon_bwb_uav.png" width="800">
+  <img src="figures/charon_bwb_uav_2.png" width="800">
 </p>
 
 <p align="center">
