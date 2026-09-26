@@ -40,7 +40,7 @@ XFLR5 predicted a higher maximum lift-to-drag ratio than the CFD model.
 The comparison therefore highlighted the limitations of the
 lower-fidelity aerodynamic model, particularly in the nonlinear and
 post-stall regime, and provided additional justification for proceeding
-to higher-fidelity CFD analysis.
+to three-dimensional CFD analysis of the complete aircraft.
 
 ---
 
@@ -260,5 +260,4 @@ Key limitations include:
 
 The study was therefore intended primarily as a comparative aerodynamic
 investigation of the CHARON configurations rather than as a fully
-validated high-fidelity aircraft performance model and provided additional justification for proceeding to three-dimensional
-CFD analysis of the complete aircraft.
+validated high-fidelity aircraft performance model.
