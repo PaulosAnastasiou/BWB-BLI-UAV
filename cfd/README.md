@@ -18,7 +18,7 @@ of attack:
 - drag coefficient, CD
 - aerodynamic efficiency, CL/CD
 
-![2D CFD vs XFLR5 comparison](../figures/2d_cfd_xflr5_comparison.png)
+![2D CFD vs XFLR5 comparison](../figures/2d_cfd_xflr5_comparison_standard.png)
 
 *Representative comparison between 2D CFD and XFLR5 aerodynamic
 predictions for the baseline NACA 2412 airfoil.*
