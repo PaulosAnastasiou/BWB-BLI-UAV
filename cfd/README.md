@@ -231,6 +231,115 @@ Consequently, the total axial force reported for C3 should not be interpreted
 as passive airframe drag or used directly to reconstruct the configuration
 L/D value reported in the thesis.
 
+---
+
+## Embedded-Nacelle / BLI Investigation
+
+Following the externally mounted C2 and C3 configurations, the propulsion
+installation was further integrated into the BWB geometry through recessed
+embedded nacelles.
+
+The upper surface of the aircraft was locally reshaped to accommodate the
+nacelle installation and allow the inlet to interact directly with the
+near-wall flow over the BWB.
+
+This configuration was investigated to assess the aerodynamic behaviour of
+the aircraft when the EDF installation was deliberately coupled with the
+boundary-layer flow.
+
+Two principal cases were considered:
+
+- **C2\*** — embedded nacelle without an operating rotor
+- **C3\*** — embedded nacelle with an operating EDF
+
+The C3* configuration was subsequently evaluated at multiple rotor speeds
+to investigate the sensitivity of the aerodynamic forces to EDF operating
+condition.
+
+### C2* — Embedded Nacelle without Rotor Operation
+
+![C2* embedded-nacelle configuration](../figures/c2star_embedded_nacelle.png)
+
+*C2* embedded-nacelle configuration at AoA = 4°, evaluated without
+an operating EDF rotor.*
+
+The embedded configuration was first evaluated without an operating rotor
+at an angle of attack of 4°.
+
+The resulting force components were:
+
+| Contribution | Fx [N] | Fy [N] | Fz [N] |
+|---|---:|---:|---:|
+| Pressure | 67.30 | -380.12 | 1036.05 |
+| Viscous | 34.32 | 0.51 | -1.83 |
+
+The reported lift-to-drag ratio for this case was:
+
+**L/D = 10.36**
+
+### C3* — Embedded Nacelle with Operating EDF
+
+![C3* embedded-nacelle configuration](../figures/c3star_embedded_nacelle.png)
+
+*C3* embedded-nacelle configuration at AoA = 4°, evaluated with
+an operating EDF rotor.*
+
+The embedded configuration was subsequently evaluated with an operating
+EDF at three rotor speeds.
+
+| Case | Rotor speed [rpm] | Fx [N] | Fy [N] | Fz [N] | Reported L/D |
+|---|---:|---:|---:|---:|---:|
+| C3*-A | 4770 | 119.25 | -286.48 | 1118.73 | 9.39 |
+| C3*-B | 5732 | 131.74 | -294.95 | 1160.67 | 8.85 |
+| C3*-C | 6687 | 147.70 | -346.79 | 1203.90 | 8.18 |
+
+The rotor-speed sweep showed a systematic increase in the vertical force
+component as EDF rotational speed increased.
+
+At the same time, the magnitude of the aerodynamic force associated with
+the streamwise/pressure contribution also increased, resulting in a reduction
+of the reported L/D across the investigated rotor-speed range:
+
+**9.39 → 8.85 → 8.18**
+
+for:
+
+**4770 → 5732 → 6687 rpm**, respectively.
+
+### Effect of EDF Rotational Speed
+
+Increasing EDF rotational speed increased the suction and altered the
+near-body flow around the embedded installation.
+
+The CFD results indicated that increasing rotor speed increased the
+generated lift. The flow was also redirected toward the aircraft centreline
+and closer to the wing-root region.
+
+Within the investigated operating range, however, the increase in lift was
+accompanied by an increase in pressure drag. Consequently, the reported
+lift-to-drag ratio decreased as rotor speed increased.
+
+The highest rotor speed therefore did not correspond to the highest
+aerodynamic efficiency in the investigated cases.
+
+This illustrates an important propulsion–airframe integration trade-off:
+increasing EDF rotational speed can increase aerodynamic loading without
+necessarily improving the overall aerodynamic efficiency of the integrated
+configuration.
+
+### Flow Attachment
+
+An exploratory embedded-nacelle comparison also indicated a qualitative
+difference in internal flow behaviour between the rotor-off and rotor-on
+cases.
+
+Without rotor-induced suction, flow separation was observed within the
+internal wing/nacelle region. With the EDF operating, the increased mass
+flow through the inlet helped maintain a more attached internal flow and
+reduced the pressure-drag contribution.
+
+This observation motivated the subsequent controlled rotor-speed study.
+
 ## Key Findings
 
 The CFD campaign produced three principal observations:
@@ -265,3 +374,4 @@ Key limitations include:
 The study was therefore intended primarily as a comparative aerodynamic
 investigation of the CHARON configurations rather than as a fully
 validated high-fidelity aircraft performance model.
+
