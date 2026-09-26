@@ -58,8 +58,8 @@ The CFD campaign was structured around three aircraft configurations:
 
 - **C1 — Clean Aircraft:** baseline BWB without nacelles or EDF units
 - **C2 — Nacelle Configuration:** aircraft with externally integrated nacelles
-- **C3 — Embedded EDF Configuration:** propulsion-integrated configuration
-  developed to investigate Boundary Layer Ingestion effects
+- **C3 — External EDF Configuration:** aircraft with externally mounted
+  nacelles and operating EDFs
 
 This progression allowed the aerodynamic impact of propulsion integration
 to be evaluated relative to the clean airframe.
@@ -178,13 +178,17 @@ penalty, reducing the overall lift-to-drag ratio.
 
 ![C3 edf configuration](../figures/c3_edf_configuration.png)
 
-*C3 propulsion-integrated configuration including the EDF system, used to
-investigate propulsion–airframe aerodynamic interaction and the potential
-effects of Boundary Layer Ingestion.*
+*C3 configuration with externally mounted operating EDFs, used to investigate
+propulsion–airframe aerodynamic interaction prior to embedded-nacelle
+integration.*
 
-The final configuration incorporated the EDF propulsion system into the
-aircraft geometry in order to investigate the aerodynamic interaction
-between the propulsion system and the BWB flow field.
+The C3 configuration retained the externally mounted nacelle arrangement
+of C2 and introduced the operating EDF rotor.
+
+This configuration was used to investigate the aerodynamic interaction
+between the operating propulsion system and the BWB airframe before the
+subsequent introduction of embedded nacelle recesses and deliberate
+Boundary Layer Ingestion.
 
 Unlike the C2 case, the rotor contribution was included in the force
 balance.
@@ -212,7 +216,7 @@ condition and an angle of attack of 4°.
 |---|---|---:|
 | C1 | Clean aircraft | 10.33 |
 | C2 | External nacelles | 9.64 |
-| C3 | Propulsion-integrated / BLI configuration | 12.92 |
+| C3 | External nacelles + operating EDF | 12.92 |
 
 The C2 result illustrates the aerodynamic penalty associated with adding
 the nacelles without obtaining the full benefit of propulsion–airframe
@@ -239,10 +243,10 @@ The CFD campaign produced three principal observations:
    penalty associated with installing the nacelles without an operating EDF,
    reducing the reported L/D from 10.33 to 9.64.
 
-3. **Propulsion integration:** the C3 configuration produced a reported L/D
-   of 12.92 at the analysed condition, compared with 10.33 for the clean
-   configuration, while the rotor introduced a significant thrust contribution
-   into the axial-force balance.
+3. **Propulsion integration:** the C3 configuration, with externally mounted
+   operating EDFs, produced a reported L/D of 12.92 at the analysed condition,
+   compared with 10.33 for the clean configuration. The rotor also introduced
+   a significant thrust contribution into the axial-force balance.
    
 ## Limitations
 
