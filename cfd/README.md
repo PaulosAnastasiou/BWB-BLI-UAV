@@ -20,8 +20,9 @@ of attack:
 
 ![2D CFD vs XFLR5 comparison](../figures/2d_cfd_xflr5_comparison_standard.png)
 
-*Representative comparison between 2D CFD and XFLR5 aerodynamic
-predictions for the baseline NACA 2412 airfoil.*
+*Representative aerodynamic results used to assess the baseline NACA 2412
+airfoil, including 2D CFD–XFLR5 comparisons of lift, drag and aerodynamic
+efficiency, together with pitching-moment characteristics.*
 
 ### Interpretation
 
