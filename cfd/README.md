@@ -83,7 +83,7 @@ containing approximately:
 
 - **10 million cells**
 - **30 inflation layers**
-- near-wall resolution targeting **y+ < 10**
+- near-wall resolution targeting **y⁺ < 10**
 
 Local mesh refinement was applied around the aircraft geometry to improve
 resolution of the near-body flow and boundary-layer region.
@@ -178,7 +178,9 @@ penalty, reducing the overall lift-to-drag ratio.
 
 ![C3 edf configuration](../figures/c3_edf_configuration.png)
 
-*C3 configuration used to evaluate the aerodynamic effect of the operating EDF system.*
+*C3 propulsion-integrated configuration including the EDF system, used to
+investigate propulsion–airframe aerodynamic interaction and the potential
+effects of Boundary Layer Ingestion.*
 
 The final configuration incorporated the EDF propulsion system into the
 aircraft geometry in order to investigate the aerodynamic interaction
@@ -201,10 +203,6 @@ Because the operating rotor generates thrust, the raw total axial force
 is no longer directly equivalent to the passive aerodynamic drag of the
 airframe.
 
-For this reason, the aerodynamic comparison reported in the thesis used
-the aircraft/nacelle aerodynamic loading separately when evaluating the
-configuration-level lift-to-drag behaviour.
-
 ## Configuration Comparison
 
 The three configurations were compared at approximately the same flight
@@ -224,6 +222,28 @@ The C3 configuration produced the highest reported configuration-level
 lift-to-drag ratio at the analysed condition, increasing L/D from 10.33
 for C1 to 12.92.
 
+The rotor contribution introduces net thrust into the axial-force balance.
+Consequently, the total axial force reported for C3 should not be interpreted
+as passive airframe drag or used directly to reconstruct the configuration
+L/D value reported in the thesis.
+
+## Key Findings
+
+The CFD campaign produced three principal observations:
+
+1. **2D validation:** XFLR5 and CFD showed reasonable agreement in the
+   approximately linear pre-stall lift regime, while larger discrepancies
+   developed in drag prediction and near stall.
+
+2. **Nacelle integration:** the C2 configuration demonstrated the aerodynamic
+   penalty associated with installing the nacelles without an operating EDF,
+   reducing the reported L/D from 10.33 to 9.64.
+
+3. **Propulsion integration:** the C3 configuration produced a reported L/D
+   of 12.92 at the analysed condition, compared with 10.33 for the clean
+   configuration, while the rotor introduced a significant thrust contribution
+   into the axial-force balance.
+   
 ## Limitations
 
 The results should be interpreted within the scope of the numerical
@@ -240,4 +260,5 @@ Key limitations include:
 
 The study was therefore intended primarily as a comparative aerodynamic
 investigation of the CHARON configurations rather than as a fully
-validated high-fidelity aircraft performance model.
+validated high-fidelity aircraft performance model and provided additional justification for proceeding to three-dimensional
+CFD analysis of the complete aircraft.
