@@ -108,9 +108,7 @@ architecture and representative engineering results.
 
 ![CHARON CMA-ES optimization workflow](figures/optimization_workflow.png)
 
-*Original CMA-ES / MATLAB / FORTRAN90 computational workflow developed
-for the CHARON aerodynamic optimization.*
-
+*Figure — Computational workflow of the CHARON aerodynamic optimization framework, showing the interaction between CMA-ES, MATLAB, FORTRAN90 routines and the XFOIL/XFLR5 aerodynamic database.*
 ## Aerodynamic Model
 
 The wing was divided spanwise into multiple segments, which were further
