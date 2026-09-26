@@ -106,7 +106,7 @@ The complete legacy source code is not distributed in this repository.
 This repository instead documents the methodology, computational
 architecture and representative engineering results.
 
-![CHARON CMA-ES optimization workflow](figures/optimization_workflow.png)
+![CHARON CMA-ES optimization workflow](../figures/optimization_workflow.png)
 
 *Figure — Computational workflow of the CHARON aerodynamic optimization framework, showing the interaction between CMA-ES, MATLAB, FORTRAN90 routines and the XFOIL/XFLR5 aerodynamic database.*
 ## Aerodynamic Model
