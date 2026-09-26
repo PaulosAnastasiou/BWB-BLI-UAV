@@ -176,6 +176,10 @@ penalty, reducing the overall lift-to-drag ratio.
 
 ## C3 — Propulsion-Integrated Configuration
 
+![C3 edf configuration](../figures/c3_edf_configuration.png)
+
+*C3 configuration used to evaluate the aerodynamic effect of the operating EDF system.*
+
 The final configuration incorporated the EDF propulsion system into the
 aircraft geometry in order to investigate the aerodynamic interaction
 between the propulsion system and the BWB flow field.
